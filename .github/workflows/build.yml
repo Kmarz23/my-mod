@@ -27,7 +27,7 @@ jobs:
       run: ./gradlew build
 
     - name: Upload mod artifact
-      uses: actions/upload-artifact@v2.3.1
+      uses: actions/upload-artifact@3e65bffbd7fd8c8d05e0c5ec6c9900cce714f665
       with:
         name: mymod
         path: build/libs/*.jar

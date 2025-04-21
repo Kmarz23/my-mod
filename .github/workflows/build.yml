@@ -26,8 +26,8 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Upload mod artifact
-      uses: actions/upload-artifact@3e65bffbd7fd8c8d05e0c5ec6c9900cce714f665
-      with:
-        name: mymod
-        path: build/libs/*.jar
+#    - name: Upload mod artifact
+#      uses: actions/upload-artifact@3e65bffbd7fd8c8d05e0c5ec6c9900cce714f665
+#      with:
+#        name: mymod
+#        path: build/libs/*.jar
